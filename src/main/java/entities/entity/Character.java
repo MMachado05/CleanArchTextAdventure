@@ -8,4 +8,9 @@ package entities.entity;
  * @author MMachado05
  */
 public abstract class Character {
+
+    /* ********** *\
+    *  Attributes  *
+    \* ********** */
+    private WorldDirections facing;
 }
