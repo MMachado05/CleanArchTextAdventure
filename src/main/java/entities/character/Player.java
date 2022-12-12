@@ -1,4 +1,4 @@
-package entities.entity;
+package entities.character;
 
 /**
  * The Player class.

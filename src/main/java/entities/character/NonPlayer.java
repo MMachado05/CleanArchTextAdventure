@@ -1,4 +1,4 @@
-package entities.entity;
+package entities.character;
 
 /**
  * A non-player character with automated behaviors.

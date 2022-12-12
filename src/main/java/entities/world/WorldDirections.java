@@ -1,4 +1,4 @@
-package entities.entity;
+package entities.world;
 
 /**
  * A class that holds all possible directions an item can be oriented in, as well as the directions

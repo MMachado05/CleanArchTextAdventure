@@ -1,4 +1,7 @@
-package entities.entity;
+package entities.character;
+
+import entities.world.Moveable;
+import entities.world.WorldDirections;
 
 /**
  * An abstract class that dictates the functionalities behind a live, movable Character object.
@@ -7,7 +10,7 @@ package entities.entity;
  *
  * @author MMachado05
  */
-public abstract class Character {
+public abstract class Character implements Moveable {
 
     /* ********** *\
     *  Attributes  *
