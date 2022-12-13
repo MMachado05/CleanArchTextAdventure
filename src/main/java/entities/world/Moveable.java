@@ -20,7 +20,8 @@ public interface Moveable {
 
     /**
      * Have this Moveable exit the provided Habitable
-     * @param exiting
+     *
+     * @param exiting The Habitable this moveable is being moved out of
      */
-    void moveOutOf(Habitable exiting);
+    void moveOutOf(Habitable exiting); // TODO: throw some error maybe?
 }
