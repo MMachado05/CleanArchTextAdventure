@@ -22,7 +22,7 @@ public abstract class GameCharacter {
 
     protected int level;
 
-    protected final List<Item> inventory;
+    protected final Item[] inventory;
     
     /* ************ *\
     *  Constructors  *
@@ -33,13 +33,14 @@ public abstract class GameCharacter {
      * @param name This character's name
      * @param description This character's description
      * @param maxHealth This character's default max health
+     * @param inventorySize This character's default inventory size
      */
-    public GameCharacter(String name, String description, int maxHealth) {
+    public GameCharacter(String name, String description, int maxHealth, int inventorySize) {
         this.name = name;
         this.description = description;
         this.maxHealth = maxHealth;
         this.health = maxHealth;
         this.level = 1;
-        this.inventory = new ArrayList<>();
+        this.inventory = new Item[inventorySize];
     } 
 }
